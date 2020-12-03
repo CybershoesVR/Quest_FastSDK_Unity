@@ -25,13 +25,13 @@ Any questions: please shoot us an email at dev@cybershoes.io
 E.g. You might be on another version of the Oculus SDK. 
 We are here to help. 
 
-include script file: "CybershoesInput.cs"  
 
-```using Cybershoes;```
 
-apply movement  
+```using Cybershoes;``` //include script file: "CybershoesInput.cs"  
 
-```"OVRPlayerController".transform.Translate(GetCybershoesInput());```
+ 
+
+```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //apply movement 
 ```
 private Vector3 GetCybershoesInput()
 {
