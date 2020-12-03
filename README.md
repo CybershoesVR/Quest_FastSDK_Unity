@@ -19,8 +19,9 @@ After above mentioned calibration:
 Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example 
 
 ///////////////////////////////// 
-// BASIC IMPLEMENTATION  //////// 
+//  IMPLEMENTATION  //////// 
 ///////////////////////////////// 
+
 Any questions: please shoot us an email at dev@cybershoes.io 
 E.g. You might be on another version of the Oculus SDK. 
 We are here to help. 
