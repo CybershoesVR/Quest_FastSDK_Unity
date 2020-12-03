@@ -7,7 +7,7 @@ UnityFastSDK - one pager
 
 
 //The Cybershoes receiver outputs a left stick x/y gamepad signal. 
-//This shoe movement vector is given relative to the HMD orientation  
+//This shoe movement vector is given relative to the HMD orientation 
 //Cybershoes users know that they should select HMD oriented movement in the game settings. 
 //There are IMUs (gyroscopes) in receiver and shoes taking care of the correlation between shoes and headset. 
 //Cybershoes users know that in order to calibrate, they point shoes forward, look forward, and press receiver button once. 
