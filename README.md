@@ -26,11 +26,11 @@ Full example project including a suggestion for a seated mode: https://github.co
 //We are here to help. 
 
 include script file: "CybershoesInput.cs" 
-using Cybershoes; 
+```using Cybershoes;```
 
 apply movement 
-"OVRPlayerController".transform.Translate(GetCybershoesInput());
-
+```"OVRPlayerController".transform.Translate(GetCybershoesInput());```
+```
 private Vector3 GetCybershoesInput()
 {
     var gamepad = Gamepad.current;
@@ -48,3 +48,4 @@ private Vector3 GetCybershoesInput()
     Vector3 characterMovement = new Vector3(-adjustedShoeMovement.x * Time.deltaTime * speed, 0, -adjustedShoeMovement.y * Time.deltaTime * speed);
     return characterMovement;
 }  
+```
