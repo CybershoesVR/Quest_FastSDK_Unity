@@ -12,11 +12,11 @@ Cybershoes users know that they should select HMD oriented movement in the game 
 There are IMUs (gyroscopes) in receiver and shoes taking care of the correlation between shoes and headset. 
 Cybershoes users know that in order to calibrate, they point shoes forward, look forward, and press receiver button once. 
 
-//After above mentioned calibration: 
-//* user looks forward & shoes point forward >>> Y-value ("forward") 
-//* user looks to the left side & shoes point forward >>>X-value ("strafing") 
+After above mentioned calibration: 
+* user looks forward & shoes point forward >>> Y-value ("forward") 
+* user looks to the left side & shoes point forward >>>X-value ("strafing") 
 
-// Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example 
+Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example 
 
 ///////////////////////////////// 
 // BASIC IMPLEMENTATION  //////// 
@@ -25,10 +25,10 @@ Cybershoes users know that in order to calibrate, they point shoes forward, look
 //E.g. You might be on another version of the Oculus SDK. 
 //We are here to help. 
 
-//include script file: "CybershoesInput.cs" 
+include script file: "CybershoesInput.cs" 
 using Cybershoes; 
 
-//apply movement 
+apply movement 
 "OVRPlayerController".transform.Translate(GetCybershoesInput());
 
 private Vector3 GetCybershoesInput()
