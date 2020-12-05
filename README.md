@@ -22,7 +22,8 @@ Full example project including a suggestion for a seated mode: https://github.co
 
 ///////////////////////////////// 
 //  IMPLEMENTATION  //////// 
-///////////////////////////////// 
+/////////////////////////////////  
+
 You might be on another version of the Oculus SDK. 
 Any questions: please contact us dev@cybershoes.io 
 We are here to help. 
