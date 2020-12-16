@@ -24,14 +24,14 @@ Full example project including a suggestion for a seated mode: https://github.co
 //  IMPLEMENTATION  //////// 
 /////////////////////////////////  
 
-Replace what is written in "parenthesis" with your gameobject.
-Any questions: please contact us dev@cybershoes.io   
-You might be on another version of the Oculus SDK.   
-We are here to help. 
+Replace what is written in "parenthesis" with your gameobject.  
+Any questions: please contact us dev@cybershoes.io  
+E.g. You might be on another version of the Oculus SDK. We are here to help. 
 
 ```using Cybershoes;``` //include script file: "CybershoesInput.cs"  
 
 ```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //in update: apply movement relative to HMD  
+
 GetCybershoesInput() reads gamepad and adjusts orientation
 ```
 private Vector3 GetCybershoesInput()
