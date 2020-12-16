@@ -30,7 +30,7 @@ We are here to help.
 
 ```using Cybershoes;``` //include script file: "CybershoesInput.cs"  
 
-```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //apply movement relative to HMD each frame
+```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //apply movement relative to HMD,call each frame
 ```
 private Vector3 GetCybershoesInput()
 {
