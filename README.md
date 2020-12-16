@@ -32,7 +32,7 @@ E.g. You might be on another version of the Oculus SDK. We are here to help.
 
 ```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //in update: apply movement relative to HMD  
 
-GetCybershoesInput() reads gamepad and adjusts orientation
+GetCybershoesInput() reads gamepad, adjusts orientation, returns movement vector 
 ```
 private Vector3 GetCybershoesInput()
 {
