@@ -38,28 +38,3 @@ Either you or we test how the speed feels. In some cases the sign (+/-) needs to
 //  ADVANCED IMPLEMENTATION  //////// 
 /////////////////////////////////////  
 Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example '
-
-```using Cybershoes;``` //include script file: "CybershoesInput.cs"  
-
-```"OVRPlayerController".transform.Translate(GetCybershoesInput());``` //in update: apply movement relative to HMD  
-
-GetCybershoesInput() reads gamepad, adjusts orientation, returns movement vector 
-```
-private Vector3 GetCybershoesInput()
-{
-    var gamepad = Gamepad.current;
-    if (gamepad == null)
-    {
-        return new Vector3(0,0,0);
-    }
-    //get gamepad input
-    Vector2 shoeMovement = new Vector2(gamepad.leftStick.x.ReadValue(), gamepad.leftStick.y.ReadValue());
-    //use the Cybershoes script to get the optimal shoe orientation
-    Vector2 adjustedShoeMovement = CybershoesInput.GetRotatedShoeVector("OVRCameraRig".centerEyeAnchor.rotation, shoeMovement);
-    //test speed with Cybershoes to see if running feels fast enough
-    float speed = 0.5f;
-    //transform to vector3
-    Vector3 characterMovement = new Vector3(-adjustedShoeMovement.x * Time.deltaTime * speed, 0, -adjustedShoeMovement.y * Time.deltaTime * speed);
-    return characterMovement;
-}  
-```
