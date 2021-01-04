@@ -18,15 +18,26 @@ After above mentioned calibration you get:
 * Y axis ("forward"): user looks forward & walks forward (shoes point forward)
 * X axis ("strafing"): user looks e.g. to the left & walks forward (shoes point to the right side)
 
-Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example 
 
 ///////////////////////////////// 
-//  IMPLEMENTATION  //////// 
+//  BASIC IMPLEMENTATION  //////// 
 /////////////////////////////////  
 
 Replace what is written in "parenthesis" with your gameobject.  
-Any questions: please contact us dev@cybershoes.io  
-E.g. You might be on another version of the Oculus SDK. We are here to help. 
+Any questions: please contact us dev@cybershoes.io  We are here to help. 
+
+```
+float speed = 0.5f;
+Vector3 gamepad3D = new Vector3(gamepad.leftStick.x.ReadValue(), 0.0, gamepad.leftStick.y.ReadValue());
+"OVRPlayerController".transform.Translate(gamepad3D * Time.deltaTime * speed);
+
+```
+Either you or we test how the speed feels. In some cases the sign (+/-) needs to be inverted.
+
+///////////////////////////////////// 
+//  ADVANCED IMPLEMENTATION  //////// 
+/////////////////////////////////////  
+Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example '
 
 ```using Cybershoes;``` //include script file: "CybershoesInput.cs"  
 
