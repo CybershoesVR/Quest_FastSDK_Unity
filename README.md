@@ -2,11 +2,10 @@
 UnityFastSDK - one pager
 
 ///////////////////////////////// 
-//  BASIC IMPLEMENTATION  //////// 
+//  BASIC IMPLEMENTATION  /// 
 /////////////////////////////////  
-
-Replace what is written in "parenthesis" with your gameobject.  
-Any questions: please contact us dev@cybershoes.io  We are here to help. 
+Any questions: please contact us dev@cybershoes.io  We are here to help.  
+Replace what is written in "parenthesis" with your gameobject. Goes into update.
 
 ```
 float speed = 0.5f;
