@@ -1,4 +1,4 @@
-# UnityFastSDK
+# UnityFastSDK Cybershoes for QUEST
 UnityFastSDK - one pager
 
 ///////////////////////////////// 
