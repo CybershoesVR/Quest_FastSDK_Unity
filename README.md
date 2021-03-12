@@ -1,4 +1,4 @@
-# UnityFastSDK Cybershoes for QUEST
+# Quest FastSDK Unity: Cybershoes for QUEST
 UnityFastSDK - one pager
 
 ///////////////////////////////// 
