@@ -18,7 +18,9 @@ Either you or we test how the speed feels. In some cases the sign (+/-) needs to
 ///////////////////////////////////// 
 //  EXAMPLE PROJECT AND SEATED MODE  //////// 
 /////////////////////////////////////  
-Full example project including a suggestion for a seated mode: https://github.com/CybershoesVR/Quest_SDK_Unity_Example '
+Full example project including a suggestion for a seated mode:  
+https://github.com/CybershoesVR/Quest_SDK_Unity2020-1_XRplugin_Example 
+https://github.com/CybershoesVR/Quest_SDK_Unity2019-4_OculusPlugin_Example 
 
 /////////////////////////////////
 // BACKGROUND INFORMATION  //////
