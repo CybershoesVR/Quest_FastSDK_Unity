@@ -14,7 +14,7 @@ Vector3 gamepad3D = new Vector3(gamepad.leftStick.x.ReadValue(), 0.0, gamepad.le
 
 ```
 The Cybershoes receiver outputs a left stick x/y gamepad signal relative to the HMD orientation.  
-This signal tells the game in which direction the shoes are pointing.  
+This signal tells the game in which direction the shoes are moving.  
 Walking in the direction of the shoes works well, if the same factor is applied for speed y (forward) as for speed x (sidewards).  
 Either you or we test how the speed feels. 
 
