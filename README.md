@@ -31,7 +31,7 @@ https://github.com/CybershoesVR/Quest_SDK_Unity2019-4_OculusPlugin_Example
 
 * Cybershoes users know that they should select HMD oriented movement in the game settings. 
 
-* There are gyroscopes in receiver and shoes taking care of the correlation between shoes and headset. 
+* There are gyroscopes taking care of the correlation between shoes and headset. 
 Cybershoes users know that in order to calibrate, they must point shoes forward, look forward, and press receiver button once. 
 
 After above mentioned calibration you get:
