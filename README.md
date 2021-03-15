@@ -13,7 +13,10 @@ Vector3 gamepad3D = new Vector3(gamepad.leftStick.x.ReadValue(), 0.0, gamepad.le
 "OVRPlayerController".transform.Translate(gamepad3D * Time.deltaTime * speed);
 
 ```
-Either you or we test how the speed feels. In some cases the sign (+/-) needs to be inverted.
+The Cybershoes receiver outputs a left stick x/y gamepad signal relative to the HMD orientation.  
+This signal tells the game in which direction the shoes are pointing.  
+Walking in the direction of the shoes works well, if the same factor is applied for speed y (forward) as for speed x (sidewards).  
+Either you or we test how the speed feels. 
 
 ///////////////////////////////////// 
 //  EXAMPLE PROJECT AND SEATED MODE  //////// 
@@ -25,8 +28,6 @@ https://github.com/CybershoesVR/Quest_SDK_Unity2019-4_OculusPlugin_Example
 /////////////////////////////////
 // BACKGROUND INFORMATION  //////
 /////////////////////////////////
-
-The Cybershoes receiver outputs a left stick x/y gamepad signal relative to the HMD orientation.  
 
 * Cybershoes users know that they should select HMD oriented movement in the game settings. 
 
